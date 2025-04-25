@@ -2,7 +2,7 @@
   "name": "placement-profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://GALDII.github.io/placement-profile" ,
+  "homepage": "https://galdii.github.io/placement-profile",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@testing-library/dom": "^10.4.0",
