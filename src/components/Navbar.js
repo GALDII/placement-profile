@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <img src="/assets/CHRIST_WHITE.png" alt="University Logo" />
+        <img src={process.env.PUBLIC_URL + '/assets/CHRIST_WHITE.png'} alt="University Logo" />
         
 
       </div>
