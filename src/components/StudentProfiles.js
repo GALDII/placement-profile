@@ -58,7 +58,7 @@ const StudentProfiles = () => {
         </div>
 
         <div className="profile-card" data-name="Gladis Sam Prakash S" data-specialization="Data Analytics, Artificial Intelligence(AI), Machine Learning(ML)" data-skills="Python, SQL, Power BI, R">
-          <img src={process.env.PUBLIC_URL + '/assets/kiran_ps.jpg'} alt="Kiran Guruv" />
+          <img src={process.env.PUBLIC_URL + '/assets/kiran_ps.jpeg'} alt="Kiran Guruv" />
           <h3>Kiran Guruv</h3>
           <p>Data Analytics, Artificial Intelligence(AI), Machine Learning(ML)</p>
           <p className="skills">Skills: Python, SQL, Problem solving</p>
