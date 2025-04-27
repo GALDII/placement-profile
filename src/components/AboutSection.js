@@ -1,8 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 
-
 const AboutSection = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  const slides = [
+    {
+      src: process.env.PUBLIC_URL + '/assets/IEE_grp_pht.jpeg',
+      alt: 'IEE Conference',
+      text: 'IEE CONFERENCE: Volunters of the conference',
+    },
+    {
+      src: process.env.PUBLIC_URL + '/assets/workshop2.jpeg',
+      alt: 'Net-set Exam Awerness',
+      text: 'Net-Set Exam: Awerness of net and Set exam ',
+    },
+    {
+      src: process.env.PUBLIC_URL + '/assets/Workshop1.jpeg',
+      alt: 'Net-set Exam Awerness',
+      text: 'Net-Set Exam: Awerness of net and Set exam',
+    },
+  ];
+
+  const changeSlide = (direction) => {
+    setCurrentSlide((prev) => (prev + direction + slides.length) % slides.length);
+  };
+
   return (
     <section id="about">
       <h1>About the Program</h1>
@@ -35,41 +58,28 @@ const AboutSection = () => {
           <div className="icon"><i className="fas fa-laptop-code"></i></div>
           <h2>About MSc Data Science Programme of 2023-25</h2>
           <p>The Master of Data Science (MDS) is a postgraduate program that combines computer science and statistics to foster proficiency in data-driven decision-making. It is a two-year course comprising six trimesters.</p>
-          <p>This programme aims to provide opportunity to all candidates to master the skill sets specific to data science with research bent. The curriculum supports the students to obtain adequate knowledge in theory of data science with hands on experience in relevant domains and tools. Candidate gains exposure to research models and industry standard applications in data science through guest lectures, seminars, projects, internships, etc.</p>
+          <p>This programme aims to provide opportunity to all candidates to master the skill sets specific to data science with research bent. The curriculum supports the students to obtain adequate knowledge in theory of data science with hands-on experience in relevant domains and tools. Candidates gain exposure to research models and industry standard applications in data science through guest lectures, seminars, projects, internships, etc.</p>
         </div>
 
         <div className="about-item">
           <div className="icon"><i className="fas fa-briefcase"></i></div>
           <h2>Industry Connect</h2>
           <div className="industry-slider">
-            <div className="industry-slide">
-              <img src={process.env.PUBLIC_URL + '/assets/workshop2.jpeg'} alt="Inheritance mentorship program event" />
-
-              <div className="slide-description">
-                <h3>Inheritance</h3>
-                <p>A mentorship scheme aimed at fostering students to imbibe exposure to the industry and for bridging the gap between corporate and academia.</p>
+            {slides.map((slide, index) => (
+              <div
+                key={index}
+                className={`industry-slide ${index === currentSlide ? 'active' : ''}`}
+              >
+                <img src={slide.src} alt={slide.alt} />
+                <div className="slide-description">
+                  <h3>{slide.text.split(":")[0]}</h3>
+                  <p>{slide.text.split(":")[1]}</p>
+                </div>
               </div>
-            </div>
-
-            <div className="industry-slide">
-              <img src={process.env.PUBLIC_URL + '/assets/IEE_grp_pht.jpeg'} alt="Pragati Path women career development event" />
-              <div className="slide-description">
-                <h3>Pragati Path to future</h3>
-                <p>An exclusive program designed especially for women for career development.</p>
-              </div>
-            </div>
-
-            <div className="industry-slide">
-              <img src={process.env.PUBLIC_URL + '/assets/workshop1.jpeg'} alt="Industry workshops conducted by professionals" />
-              <div className="slide-description">
-                <h3>Workshops</h3>
-                <p>We invite industry professionals to conduct workshops on various tools and technologies that are widely used in the industries.</p>
-              </div>
-            </div>
-
+            ))}
             <div className="industry-slider-controls">
-              <span className="prev">&#10094;</span>
-              <span className="next">&#10095;</span>
+              <span className="prev" onClick={() => changeSlide(-1)}>&#10094;</span>
+              <span className="next" onClick={() => changeSlide(1)}>&#10095;</span>
             </div>
           </div>
         </div>
