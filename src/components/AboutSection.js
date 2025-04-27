@@ -44,6 +44,7 @@ const AboutSection = () => {
           <div className="industry-slider">
             <div className="industry-slide">
               <img src={process.env.PUBLIC_URL + '/assets/workshop2.jpeg'} alt="Inheritance mentorship program event" />
+
               <div className="slide-description">
                 <h3>Inheritance</h3>
                 <p>A mentorship scheme aimed at fostering students to imbibe exposure to the industry and for bridging the gap between corporate and academia.</p>
