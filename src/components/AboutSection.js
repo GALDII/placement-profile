@@ -1,10 +1,12 @@
 import React from 'react';
 import '../App.css';
 
+
 const AboutSection = () => {
   return (
     <section id="about">
       <h1>About the Program</h1>
+      
       <div className="about-section">
         <div className="about-item">
           <div className="icon"><i className="fas fa-university"></i></div>
@@ -41,7 +43,7 @@ const AboutSection = () => {
           <h2>Industry Connect</h2>
           <div className="industry-slider">
             <div className="industry-slide">
-              <img src="assets/inheritance1.jpg" alt="Industry Image 1" />
+              <img src={process.env.PUBLIC_URL + '/assets/workshop2.jpeg'} alt="Inheritance mentorship program event" />
               <div className="slide-description">
                 <h3>Inheritance</h3>
                 <p>A mentorship scheme aimed at fostering students to imbibe exposure to the industry and for bridging the gap between corporate and academia.</p>
@@ -49,7 +51,7 @@ const AboutSection = () => {
             </div>
 
             <div className="industry-slide">
-              <img src="assets/Pragati1.jpg" alt="Industry Image 2" />
+              <img src={process.env.PUBLIC_URL + '/assets/IEE_grp_pht.jpeg'} alt="Pragati Path women career development event" />
               <div className="slide-description">
                 <h3>Pragati Path to future</h3>
                 <p>An exclusive program designed especially for women for career development.</p>
@@ -57,7 +59,7 @@ const AboutSection = () => {
             </div>
 
             <div className="industry-slide">
-              <img src="assets/Workshop.jpeg" alt="Industry Image 3" />
+              <img src={process.env.PUBLIC_URL + '/assets/workshop1.jpeg'} alt="Industry workshops conducted by professionals" />
               <div className="slide-description">
                 <h3>Workshops</h3>
                 <p>We invite industry professionals to conduct workshops on various tools and technologies that are widely used in the industries.</p>
