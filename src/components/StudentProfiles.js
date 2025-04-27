@@ -49,6 +49,14 @@ const StudentProfiles = () => {
       linkedin: 'https://www.linkedin.com/in/gladis-sam-3125b122a/',
       photo: '/assets/kiran_ps.jpeg',
     },
+    {
+      name: 'Sidharth',
+      specialization: 'Data Science,  Statistics, Machine Learning(ML)',
+      skills: 'Python, SQL, Problem solving',
+      github: 'https://github.com/GALDII',
+      linkedin: 'https://www.linkedin.com/in/gladis-sam-3125b122a/',
+      photo: '/assets/sidharth_ps.jpeg',
+    },
     
   ];
 
