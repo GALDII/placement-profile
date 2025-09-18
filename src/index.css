@@ -640,16 +640,15 @@ canvas {
 
 .profiles-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 25px;
   justify-content: center;
 }
 
 .profile-card {
-  width: 350px; 
-  
+  width: 200px; 
   background-color: #fff;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -658,29 +657,29 @@ canvas {
 }
 
 .profile-card img {
-  width: 80%;
+  width: 70%;
   /* margin: 0 auto;    
   height: auto;
   border-radius: 10px; */
   
   object-fit: cover; /* Ensures the image covers the entire area */
   border-radius: 10px; /* Optional: rounds the corners of the images */
-  margin: 0 auto 20px auto; /* Centers the image horizontally and adds space below */
+  margin: 0 auto 20px ; /* Centers the image horizontally and adds space below */
   display: block;
 }
 
 .profile-card h3 {
-  font-size: 1.5em;
+  font-size: 1em;
   margin-bottom: 10px;
 }
 
 .profile-card p {
-  font-size: 1em;
+  font-size: 0.8em;
   color: #666;
 }
 
 .profile-card .skills {
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #333;
 }
 
