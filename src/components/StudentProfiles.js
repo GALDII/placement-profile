@@ -51,7 +51,7 @@ const profiles = [
     skills: 'Python, SQL, PowerBI, R programming',
     github: 'https://github.com/Anusha-O',
     linkedin: 'https://www.linkedin.com/in/anusha-p-k-808baa1b7',
-    photo: '/assets/anusha.JPG'
+    photo: '/assets/Anusha.JPG'
   },
   {
     name: 'Anwesa Bharasa',
@@ -59,7 +59,7 @@ const profiles = [
     skills: 'Python, SQL, R Programming, Excel, Power BI, Tableau, Mathematics and Statistical Analysis, Problem-Solving, Critical Thinking, Time Management',
     github: 'https://github.com/AnwesaBharasa',
     linkedin: 'https://www.linkedin.com/in/anwesa-bharasa-5949672a8/',
-    photo: '/assets/anwesa.JPG'
+    photo: '/assets/Anwesa.JPG'
   },
   {
     name: 'Aparna Mathew',
@@ -99,7 +99,7 @@ const profiles = [
     skills: 'Python, Java, C, Database Management System',
     github: 'https://github.com/KishorBobade',
     linkedin: 'https://www.linkedin.com/in/kishor-patil-9514ab26a/',
-    photo: '/assets/Kishor.jpg'
+    photo: '/assets/Kishor.JPG'
   },
   {
     name: 'Chilakapati Yashwanth',
