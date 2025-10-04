@@ -350,7 +350,7 @@ const profiles = [
     photo: '/assets/u-sidharth.png'
 
   }
-  ,
+,
   {
     name: 'Shoaib',
     specialization: 'Data Science',
