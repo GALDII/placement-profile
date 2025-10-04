@@ -19,7 +19,7 @@ const profiles = [
     skills: 'Python, PowerBI, Data Visualization, Data Storytelling, Problem Solving',
     github: 'https://github.com/revelation3',
     linkedin: 'https://www.linkedin.com/in/amruthavarshini-sumanohar-b0922b27a/',
-    photo: '/assets/amruthavarshini.JPG'
+    photo: '/assets/amruthavarshini.jpg'
   },
   {
     name: 'Anna Vinod',
