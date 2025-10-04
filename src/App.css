@@ -1,38 +1,242 @@
+/* General App Styles (can be kept as is) */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* --- Student Profiles Section --- */
+#student-profiles {
+  padding: 50px 15px;
+  background-color: #f8f9fa;
   min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+#student-profiles h1 {
+  font-size: 42px;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+/* --- Search Container --- */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+
+#search-bar {
+  width: 100%;
+  max-width: 600px;
+  padding: 15px 25px;
+  font-size: 16px;
+  border: 1px solid #dfe6e9;
+  border-radius: 30px;
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+#search-bar:focus {
+  border-color: #3498db;
+  box-shadow: 0 4px 10px rgba(52, 152, 219, 0.2);
+}
+
+#search-button {
+  padding: 15px 25px;
+  background-image: linear-gradient(45deg, #3498db, #2980b9);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#search-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Profile Grid Container - FIXED: 6 columns with minimal gaps --- */
+.profiles-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* --- Profile Card --- */
+.profile-card {
+  background: #ffffff;
+  padding: 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  border: 1px solid #e9ecef;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  width: 90%;
+}
+
+.profile-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.profile-image-container {
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  overflow: hidden;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
+  border: none;
+  box-shadow: none;
+  flex-shrink: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* --- Profile Content --- */
+.profile-content {
+  padding: 18px 15px;
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 17px;
+  font-weight: 600;
+  color: #34495e;
+  margin: 0 0 8px 0;
+  line-height: 1.2;
+}
+
+.profile-specialization {
+  font-size: 13px;
+  color: #7f8c8d;
+  margin: 0 0 12px 0;
+  line-height: 1.3;
+  min-height: 36px;
+}
+
+.profile-skills {
+  font-size: 12px;
+  color: #34495e;
+  line-height: 1.4;
+  margin: 0;
+  text-align: left;
+  padding: 0 5px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.profile-skills strong {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* --- Social Media Icons --- */
+.social-media {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: auto;
+  padding: 12px 0 15px 0;
+  border-top: 1px solid #f1f1f1;
+  width: 100%;
+}
+
+.social-media a {
+  color: #95a5a6;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.social-media a:hover {
+  transform: scale(1.15);
+}
+
+.social-media .fa-github:hover {
+  color: #333;
+}
+
+.social-media .fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.social-media .fa-user:hover {
+  color: #27ae60;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 1600px) {
+  .profiles-container {
+    grid-template-columns: repeat(5, 1fr);
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 1300px) {
+  .profiles-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .profiles-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  #student-profiles h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .profiles-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profiles-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  #student-profiles {
+    padding: 40px 15px;
+  }
+  .profile-content {
+    padding: 15px;
+  }
+  .profile-image-container {
+    height: 180px;
   }
 }
