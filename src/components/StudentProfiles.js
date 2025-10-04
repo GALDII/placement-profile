@@ -27,7 +27,7 @@ const profiles = [
     skills: 'Python, R programming, MySql, HTML, CSS, JavaScript, Java, DBMS, Analytical and Logical Reasoning, Problem Solving, ML, DL',
     github: 'https://github.com/annavinod',
     linkedin: 'https://www.linkedin.com/in/anna-vinod-9141b5255',
-    photo: '/assets/anna.JPG'
+    photo: '/assets/anna.jpg'
   },
   {
     name: 'Annesha Naskar',
@@ -35,7 +35,7 @@ const profiles = [
     skills: 'Python, Java, SQL, Tableau, Problem-Solving, Analytical Skills, Teamwork',
     github: 'https://github.com/ann-works',
     linkedin: 'https://www.linkedin.com/in/annesha-n-00aa63319',
-    photo: '/assets/annesha.JPG'
+    photo: '/assets/annesha.jpg'
   },
   {
     name: 'Anshul Joshi',
@@ -43,7 +43,7 @@ const profiles = [
     skills: 'Data Science, Machine Learning, Deep Learning, AI, SQL, TensorFlow, Streamlit, QGis, Git, RAG, Transformers, LLM',
     github: 'https://github.com/anshul009-18',
     linkedin: 'https://www.linkedin.com/in/anshul-joshi-767739199/',
-    photo: '/assets/anshul.JPG'
+    photo: '/assets/anshul.jpg'
   },
   {
     name: 'Anusha P K',
@@ -51,7 +51,7 @@ const profiles = [
     skills: 'Python, SQL, PowerBI, R programming',
     github: 'https://github.com/Anusha-O',
     linkedin: 'https://www.linkedin.com/in/anusha-p-k-808baa1b7',
-    photo: '/assets/anusha.JPG'
+    photo: '/assets/anusha.jpg'
   },
   {
     name: 'Anwesa Bharasa',
@@ -59,7 +59,7 @@ const profiles = [
     skills: 'Python, SQL, R Programming, Excel, Power BI, Tableau, Mathematics and Statistical Analysis, Problem-Solving, Critical Thinking, Time Management',
     github: 'https://github.com/AnwesaBharasa',
     linkedin: 'https://www.linkedin.com/in/anwesa-bharasa-5949672a8/',
-    photo: '/assets/anwesa.JPG'
+    photo: '/assets/anwesa.jpg'
   },
   {
     name: 'Aparna Mathew',
@@ -67,7 +67,7 @@ const profiles = [
     skills: 'Python, HTML, SQL, Critical Thinking, Problem Solving',
     github: 'https://github.com/Aparna-26-02',
     linkedin: 'https://www.linkedin.com/in/aparna-mathew/',
-    photo: '/assets/aparna.JPG'
+    photo: '/assets/aparna.jpg'
   },
   {
     name: 'Ashisha Sharma',
@@ -75,7 +75,7 @@ const profiles = [
     skills: 'Python, PyTorch, MySQL, Statistics, Tensor flow, Transformers, GANs, RAG Models',
     github: 'https://github.com/ashisha2601',
     linkedin: 'https://www.linkedin.com/in/ashisha-sharma/',
-    photo: '/assets/ashisha.JPG'    
+    photo: '/assets/ashisha.jpg'    
   },
   {
     name: 'Bhargav Reddy K',
@@ -83,7 +83,7 @@ const profiles = [
     skills: 'Python, SQL, Tableau, R, SQL, ML(Model building), AI',
     github: 'https://github.com/Bull9016',
     linkedin: 'https://www.linkedin.com/in/bhargav-reddy-k-71829121b',
-    photo: '/assets/bhargav.JPG'
+    photo: '/assets/bhargav.jpg'
   },
   {
     name: 'Bhavya Sree S',
@@ -91,7 +91,7 @@ const profiles = [
     skills: 'Python, SQL, Transformer Models, Java, Flask, HTML/CSS, Problem Solving',
     github: 'https://github.com/Bhavya-11-sree',
     linkedin: 'https://www.linkedin.com/in/bhavya-sree-s-7a453832b/',
-    photo: '/assets/Bhavya.JPG'
+    photo: '/assets/Bhavya.jpg'
   },
   {
     name: 'Bobade Kishor Sudarshan',
@@ -99,7 +99,7 @@ const profiles = [
     skills: 'Python, Java, C, Database Management System',
     github: 'https://github.com/KishorBobade',
     linkedin: 'https://www.linkedin.com/in/kishor-patil-9514ab26a/',
-    photo: '/assets/kishor.JPG'
+    photo: '/assets/kishor.jpg'
   },
   {
     name: 'Chilakapati Yashwanth',
@@ -107,7 +107,7 @@ const profiles = [
     skills: 'Python, R, SQL, NoSQL, Excel, Data Visualization, Data Cleaning, Problem Solving, Communication',
     github: 'https://github.com/chilakapatiyashwanth03-max',
     linkedin: 'https://www.linkedin.com/in/yashwanth-chilakapati-bb40ba242/',
-    photo: '/assets/chilakapati.JPG'
+    photo: '/assets/chilakapati.jpg'
   },
   {
     name: 'Chittesh K',
@@ -115,7 +115,7 @@ const profiles = [
     skills: 'Python, SQL, Data Analysis & Visualization tools, R, Tableau, Power BI, Problem-Solving',
     github: 'https://github.com/Chittesh2324',
     linkedin: 'https://www.linkedin.com/in/chittesh-karthikeyan-6aba4023b/',
-    photo: '/assets/chittesh.JPG'
+    photo: '/assets/chittesh.jpg'
   },
   {
     name: 'Ciya K J',
@@ -123,7 +123,7 @@ const profiles = [
     skills: 'Python, R, SQL, Data Visualization, Java, CSS, Problem Solving',
     github: 'https://github.com/Ciyakj',
     linkedin: 'https://www.linkedin.com/in/ciya-k-j-411224264',
-    photo: '/assets/ciya.JPG'
+    photo: '/assets/ciya.jpg'
   },
   {
     name: 'Febin T Nabeel',
@@ -131,7 +131,7 @@ const profiles = [
     skills: 'Python, SQL, Problem Solving',
     github: 'https://github.com/Febin1004',
     linkedin: 'https://www.linkedin.com/in/febin-t-nabeel-a50222274/',
-    photo: '/assets/febin.JPG'
+    photo: '/assets/febin.jpg'
   },
   {
     name: 'Gaayathri M',
@@ -147,7 +147,7 @@ const profiles = [
     skills: 'Python, JavaScript, HTML, CSS, SQL, DBMS',
     github: 'https://github.com/georgejose055',
     linkedin: 'http://www.linkedin.com/in/george-jose-114077235',
-    photo: '/assets/george.JPG'
+    photo: '/assets/george.jpg'
   },
   {
     name: 'Harsha K',
@@ -155,7 +155,7 @@ const profiles = [
     skills: 'Python, JavaScript, Flask, HTML, SQL',
     github: 'https://github.com/Harsha-k04',
     linkedin: 'https://www.linkedin.com/in/harsha-k-98a6222ba/',
-    photo: '/assets/harsha.JPG'
+    photo: '/assets/harsha.jpg'
   },
   {
     name: 'Harshitha S',
@@ -163,7 +163,7 @@ const profiles = [
     skills: 'Python, SQL, Power BI, Tableau',
     github: 'https://github.com/Harshitha-Shekar',
     linkedin: 'https://www.linkedin.com/in/harshitha-s25/',
-    photo: '/assets/harshitha.JPG'
+    photo: '/assets/harshitha.jpg'
   },
   {
     name: 'J Mannavan',
@@ -171,7 +171,7 @@ const profiles = [
     skills: 'Management, Critical Thinking, Python',
     github: 'https://github.com/Mann-04',
     linkedin: 'https://www.linkedin.com/in/mannavan-j-63821b220/',
-    photo: '/assets/mannavan.JPG'
+    photo: '/assets/mannavan.jpg'
   },
   {
     name: 'Jaisree M K',
@@ -187,7 +187,7 @@ const profiles = [
     skills: 'Python, SQL, JAVA',
     github: 'https://github.com/Jenet-Shirely',
     linkedin: 'www.linkedin.com/in/jenetshirelyj',
-    photo: '/assets/jenet.JPG'
+    photo: '/assets/jenet.jpg'
   },
   {
     name: 'Jaya Mary Jennifer D',
@@ -195,7 +195,7 @@ const profiles = [
     skills: 'Python, HTML/CSS, JavaScript, MySQL, Power BI, Data Cleaning, Data Wrangling, Data Visualization, A/B Testing, Campaign Performance Analysis, Meta Ads Reporting, ROI Optimization, Insight Generation',
     github: 'https://github.com/JENNIFERJD',
     linkedin: 'https://www.linkedin.com/in/jaya-mary-jennifer-d?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-    photo: '/assets/jaya.JPG'
+    photo: '/assets/jaya.jpg'
   },
   {
     name: 'Jestin Thomas',
@@ -251,7 +251,7 @@ const profiles = [
     skills: 'Python, SQL, HTML, Critical Thinking, Problem Solving, Communication',
     github: 'https://github.com/madhupa2000',
     linkedin: 'https://www.linkedin.com/in/madhupa-vinod-64b467210/',
-    photo: '/assets/madhupa.JPG'
+    photo: '/assets/madhupa.jpg'
   },
   {
     name: 'Mohammed Hanees M',
@@ -259,7 +259,7 @@ const profiles = [
     skills: 'Python, SQL, TensorFlow/PyTorch, Big Data (Spark/Hadoop), Problem Solving',
     github: 'https://github.com/Mohammed-Hanees-M?tab=followers',
     linkedin: 'https://www.linkedin.com/in/mohammed-hanees-m-696040277/',
-    photo: '/assets/mohammed.JPG'
+    photo: '/assets/mohammed.jpg'
   },
   {
     name: 'Nayanaa Ajith',
@@ -267,7 +267,7 @@ const profiles = [
     skills: 'Python, HTML, Java, MySQL, Flask, Communication, Problem-Solving',
     github: 'https://github.com/Nayanaa-Ajith',
     linkedin: 'www.linkedin.com/in/nayanaa-ajith-482969313',
-    photo: '/assets/nayanaa.JPG'
+    photo: '/assets/nayanaa.jpg'
   },
   {
     name: 'Parameswaran A',
@@ -275,7 +275,7 @@ const profiles = [
     skills: 'Python, R, SQL, JavaScript, ML/DL (Scikit-learn, PyTorch, TensorFlow, Keras, Hugging Face, YOLO), Data Analytics (Pandas, Numpy, Matplotlib, Seaborn, EDA), Web Development (Node.js, Express.js, Flask, MongoDB, REST APIs), Git/GitHub',
     github: 'https://github.com/Paramesh21',
     linkedin: 'https://www.linkedin.com/in/parameswaran-a-39691b227',
-    photo: '/assets/parameswaran.JPG'
+    photo: '/assets/parameswaran.jpg'
   },
   {
     name: 'Prathana Sharma',
@@ -323,7 +323,7 @@ const profiles = [
     skills: 'Python, SQL, Analytical Thinking',
     github: 'https://github.com/saikatmaity13',
     linkedin: 'https://www.linkedin.com/in/saikat-maity/',
-    photo: '/assets/saikat.JPG'
+    photo: '/assets/saikat.jpg'
   },
   {
     name: 'Samiksha Sandeep Zokande',
@@ -331,7 +331,7 @@ const profiles = [
     skills: 'Python, SQL, PowerBI, Generative AI, Inferential Statistics, Time Series Forecasting, Predictive Modeling, TensorFlow, PyTorch, OpenCV, Problem Solving, Critical Thinking, Adaptability',
     github: 'https://github.com/Samiksha29-git',
     linkedin: 'https://www.linkedin.com/in/samiksha-zokande/',
-    photo: '/assets/samiksha.JPG'
+    photo: '/assets/samiksha.jpg'
   },
   {
     name: 'Saranya M',
@@ -372,7 +372,7 @@ const profiles = [
     skills: 'Java, Python, SQL, PowerBI, Software Development, Problem Solving',
     github: 'https://github.com/shristydas',
     linkedin: 'https://www.linkedin.com/in/shristy-das-80627223b/',
-    photo: '/assets/shristy.JPG'
+    photo: '/assets/shristy.jpg'
   },
   {
     name: 'Shrutika Gupta',
@@ -380,7 +380,7 @@ const profiles = [
     skills: 'Python, R, SQL, ML/DL, GenAI, Statistical Analysis, Data Visualization',
     github: 'https://github.com/Shrutika217',
     linkedin: 'https://www.linkedin.com/in/shrutika-gupta-687b55243/',
-    photo: '/assets/shrutika.JPG'
+    photo: '/assets/shrutika.jpg'
   },
   {
     name: 'Sineha Manjary R.',
@@ -388,7 +388,7 @@ const profiles = [
     skills: 'Python, SQL, Problem Solving, Data Structure',
     github: 'https://github.com/SinehaManjary28',
     linkedin: 'www.linkedin.com/in/sineha-manjary',
-    photo: '/assets/sineha.JPG'
+    photo: '/assets/sineha.jpg'
   },
   {
     name: 'Sumesh CS',
@@ -412,7 +412,7 @@ const profiles = [
     skills: 'Python, R, SQL, Machine Learning, Project Management, Presentations, Retail, Business Intelligence',
     github: 'https://github.com/swetha-s-2',
     linkedin: 'www.linkedin.com/in/swetha-s-0301a717a',
-    photo: '/assets/Swetha.jpg'
+    photo: '/assets/Swetha.JPG'
   },
   {
     name: 'Tavidisetty Sri Aishwarya',
@@ -420,7 +420,7 @@ const profiles = [
     skills: 'Python, SQL, Java, Data Analytics, Machine Learning, Deep Learning, Natural Language Processing',
     github: 'https://github.com/Aishwaryatavidisetty',
     linkedin: 'https://www.linkedin.com/in/aishwarya-tavidisetty-683a5a210/',
-    photo: '/assets/tavidisetty.JPG'
+    photo: '/assets/tavidisetty.jpg'
   },
   {
     name: 'Tharik Grishan S',
@@ -436,7 +436,7 @@ const profiles = [
     skills: 'Python, Power BI, SQL, Excel, Tableau, Problem Solving, Leadership Qualities, Time Management, Critical Thinking, Teamwork',
     github: 'https://github.com/Theresa52106',
     linkedin: 'www.linkedin.com/in/theresa-abel06',
-    photo: '/assets/theresa.JPG'
+    photo: '/assets/theresa.jpg'
   },
   {
     name: 'Utkarsh Misra',
@@ -444,7 +444,7 @@ const profiles = [
     skills: 'Python, R, Streamlit, MySQL, Java, Power BI, Excel',
     github: 'https://github.com/UHM1912',
     linkedin: 'https://www.linkedin.com/in/utkarsh-misra-161538269/',
-    photo: '/assets/utkarsh.JPG'
+    photo: '/assets/utkarsh.jpg'
   },
   {
     name: 'Venmugil Sruthi',
