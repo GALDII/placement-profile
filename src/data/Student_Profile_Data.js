@@ -1,9 +1,3 @@
-import React, { useState } from 'react';
-import '@fortawesome/fontawesome-free/css/all.min.css'; 
-import '../App.css';
-
-const StudentProfiles = () => {
-  const [searchQuery, setSearchQuery] = useState('');
 const profiles = [
   {
     name: 'Aishwary Singh Rathour',
@@ -463,57 +457,3 @@ const profiles = [
     photo: '/assets/Vinal.JPG'
   },
 ];
-
-  const filteredProfiles = profiles.filter(profile => {
-    const query = searchQuery.toLowerCase();
-    return (
-      profile.name.toLowerCase().includes(query) ||
-      profile.specialization.toLowerCase().includes(query) ||
-      profile.skills.toLowerCase().includes(query)
-    );
-  });
-
-  // Handle search input changes
-  const handleSearchChange = (e) => {
-    setSearchQuery(e.target.value);
-  };
-
-  return (
-    <div id="student-profiles">
-      <h1>Student Profiles</h1>
-      <div className="search-container">
-        <input
-          type="text"
-          id="search-bar"
-          placeholder="Search by name, specialization, skills..."
-          value={searchQuery}
-          onChange={handleSearchChange}
-        />
-        <button id="search-button"><i className="fas fa-search"></i></button>
-      </div>
-      <div id="profiles-container" className="profiles-container">
-        {filteredProfiles.map((profile, index) => (
-          <div className="profile-card" key={index}>
-            <div className="profile-image-container">
-              <img src={process.env.PUBLIC_URL + profile.photo} alt={profile.name} className="profile-image" />
-            </div>
-            <div className="profile-content">
-              <h3 className="profile-name">{profile.name}</h3>
-              <p className="profile-specialization">{profile.specialization}</p>
-              <p className="profile-skills"><strong>Skills:</strong> {profile.skills}</p>
-            </div>
-            <div className="social-media">
-              <a href={profile.github} target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
-              <a href={profile.linkedin} target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
-              {profile.portfolio && (
-                <a href={profile.portfolio} target="_blank" rel="noreferrer"><i className="fas fa-user"></i></a>
-              )}
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-export default StudentProfiles;
