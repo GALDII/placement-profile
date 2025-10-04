@@ -51,7 +51,7 @@ const profiles = [
     skills: 'Python, SQL, PowerBI, R programming',
     github: 'https://github.com/Anusha-O',
     linkedin: 'https://www.linkedin.com/in/anusha-p-k-808baa1b7',
-    photo: '/assets/anusha.jpg'
+    photo: '/assets/anusha.JPG'
   },
   {
     name: 'Anwesa Bharasa',
@@ -59,7 +59,7 @@ const profiles = [
     skills: 'Python, SQL, R Programming, Excel, Power BI, Tableau, Mathematics and Statistical Analysis, Problem-Solving, Critical Thinking, Time Management',
     github: 'https://github.com/AnwesaBharasa',
     linkedin: 'https://www.linkedin.com/in/anwesa-bharasa-5949672a8/',
-    photo: '/assets/anwesa.jpg'
+    photo: '/assets/anwesa.JPG'
   },
   {
     name: 'Aparna Mathew',
@@ -83,7 +83,7 @@ const profiles = [
     skills: 'Python, SQL, Tableau, R, SQL, ML(Model building), AI',
     github: 'https://github.com/Bull9016',
     linkedin: 'https://www.linkedin.com/in/bhargav-reddy-k-71829121b',
-    photo: '/assets/bhargav.jpg'
+    photo: '/assets/Bhargav.JPG'
   },
   {
     name: 'Bhavya Sree S',
@@ -91,7 +91,7 @@ const profiles = [
     skills: 'Python, SQL, Transformer Models, Java, Flask, HTML/CSS, Problem Solving',
     github: 'https://github.com/Bhavya-11-sree',
     linkedin: 'https://www.linkedin.com/in/bhavya-sree-s-7a453832b/',
-    photo: '/assets/Bhavya.jpg'
+    photo: '/assets/bhavya.jpg'
   },
   {
     name: 'Bobade Kishor Sudarshan',
@@ -99,7 +99,7 @@ const profiles = [
     skills: 'Python, Java, C, Database Management System',
     github: 'https://github.com/KishorBobade',
     linkedin: 'https://www.linkedin.com/in/kishor-patil-9514ab26a/',
-    photo: '/assets/kishor.jpg'
+    photo: '/assets/Kishor.jpg'
   },
   {
     name: 'Chilakapati Yashwanth',
