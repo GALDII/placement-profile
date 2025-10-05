@@ -79,10 +79,10 @@ const profiles = [
   },
   {
     name: 'Arunima',
-    specialization: '',
-    skills: '',
-    github: '',
-    linkedin: '',
+    specialization: 'Data Science,Machine learning',
+    skills: 'Python,SQL, Problem solving,R Programming ',
+    github: 'https://github.com/Arunima-00',
+    linkedin: 'https://www.linkedin.com/in/arunima-palliyath',
     photo: '/assets/Arunima.JPG'
   },
   {
@@ -187,7 +187,7 @@ const profiles = [
     skills: 'React JS, node JS, full stack dev',
     github: 'https://github.com/GALDII',
     linkedin: 'https://www.linkedin.com/in/gladis-sam-3125b122a/',
-    photo: '/assets/Sam.JPG'
+    photo: '/assets/Sam.png'
   },
   {
     name: 'Gopika A M',
@@ -230,7 +230,7 @@ const profiles = [
     photo: '/assets/harshitha.jpg'
   },
   {
-    name: 'Hrudya S',
+    name: 'S Hrudya',
     specialization: 'Data Science, Artificial Intelligence, Machine Learning',
     skills: 'Excel, PowerBI, Python, SQL, Machine Learning, IoT & Embedded Systems, Generative AI, Deep Learning Frameworks, Computer Vision, Problem Solving, Research',
     github: 'https://github.com/HrudyaSudhees',
@@ -423,8 +423,8 @@ const profiles = [
   },
   {
     name: 'Priyanka K',
-    specialization: 'Datascience, Data Analytics,Artificial Intelligence (AI)',
-    skills: 'Python, R, SQL, Machine Learning, Deep Learning (CNN, RNN, Transfer Learning), Data Visualization (Power BI, Matplotlib, Seaborn), NLP, Big Data (Hadoop, Spark), Problem Solving, Research & Analysis',
+    specialization: 'DataScience, Data analytics, AI Engineering ',
+    skills: 'Python, R, SQL | Machine Learning, Deep Learning (CNN, RNN, Transfer Learning), Natural Language Processing (NLP) | Data Visualization (Power BI, Matplotlib, Seaborn) | Big Data Technologies (Hadoop, Spark) | Research & Analytical Skills | Problem Solving',
     github: 'https://github.com/priyankakadirvel',
     linkedin: 'https://www.linkedin.com/in/priyanka-k-02a602317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     photo: '/assets/Priyanka.JPG'
@@ -480,7 +480,7 @@ const profiles = [
   {
     name: 'Rupsha Das',
     specialization: 'Data Science , Machine Learning , Artificial Intelligence , Statistics , Data Analysis',
-    skills: 'Python , SQL , R',
+    skills: 'Python , SQL , R , Excel , Predictive modeling,  Explainability with SHAP & DiCE (Counterfactual Analysis- XAI), Strong analytical thinker , Data Visualization , Model deployment , Deep Learning ( DL) , Statistical Analysis',
     github: 'https://github.com/Rupsha2003',
     linkedin: 'https://www.linkedin.com/in/rupsha-das-52101b2a6/',
     photo: '/assets/Rupsha.JPG'
@@ -574,11 +574,11 @@ const profiles = [
     photo: '/assets/sineha.jpg'
   },
   {
-    name: 'Sona',
-    specialization: '',
-    skills: '',
-    github: '',
-    linkedin: '',
+    name: 'Sona Joby',
+    specialization: 'Data Science, Machine Learning, Deep Learning, Artificial Intelligence, Data Analytics ',
+    skills: 'Python, R programming, SQL, HTML, CSS, Excel, Problem Solving ',
+    github: 'https://github.com/sonajoby24',
+    linkedin: 'https://www.linkedin.com/in/sona-joby-187b32249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     photo: '/assets/Sona.JPG'
   },
   {
@@ -598,11 +598,11 @@ const profiles = [
     photo: '/assets/Supriya.JPG'
   },
   {
-    name: 'Surya',
-    specialization: '',
-    skills: '',
-    github: '',
-    linkedin: '',
+    name: 'Suryanarayana K',
+    specialization: 'Data Science, Data Analytics, Machine Learning, Deep Learning',
+    skills: 'Python, SQL, HTML, CSS, Java, Power BI, MS Excel, Canva, Problem Solving, Adaptability',
+    github: 'https://github.com/suryanarayanakunnath',
+    linkedin: 'www.linkedin.com/in/ suryanarayana-k',
     photo: '/assets/Surya.JPG'
   },
   {
@@ -679,8 +679,8 @@ const profiles = [
   },
   {
     name: 'Venmugil Sruthi',
-    specialization: 'Data Science, Artificial Intelligence (AI), Machine Learning',
-    skills: 'Python, SQL, Data Analysis & Visualization tools (R, Tableau, Power BI), and Problem-Solving',
+    specialization: 'Data Science, Artificial Intelligence (AI), Machine Learning, Computer Vision',
+    skills: 'Python, SQL, Data Analysis & Visualization tools (R, Tableau, Power BI), Problem-Solving,Streamlit and OpenCV',
     github: 'https://github.com/VenmugilSruthi',
     linkedin: 'https://www.linkedin.com/in/venmugil-sruthi-a747b0249/',
     photo: '/assets/Sruthi.JPG'
