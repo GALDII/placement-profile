@@ -478,13 +478,13 @@ const profiles = [
     photo: '/assets/Rupsha.JPG'
   },
   {
-    name: 'S GLADIS SAM PRAKASH',
-    specialization: 'Data Science',
-    skills: 'React JS, Node JS, Full Stack Development',
-    github: 'https://github.com/GALDII',
-    linkedin: 'https://www.linkedin.com/in/gladis-sam-3125b122a/',
-    photo: '/assets/Sam.JPG'
-  },
+  name: 'S GLADIS SAM PRAKASH',
+  specialization: 'Data Science, Full Stack Development, Artificial Intelligence, Machine Learning, Web & Application Development',
+  skills: 'React.js, Node.js, JavaScript, Python, SQL, MongoDB, Express.js, HTML, CSS, Data Analysis, Data Visualization, Machine Learning, Deep Learning, Natural Language Processing, Problem Solving, Critical Thinking, Project Management, API Development, Cloud Integration',
+  github: 'https://github.com/GALDII',
+  linkedin: 'https://www.linkedin.com/in/gladis-sam-3125b122a/',
+  photo: '/assets/Sam.JPG'
+},
   {
     name: 'Saikat Maity',
     specialization: 'Statistics, Machine Learning, UI-UX Design',
