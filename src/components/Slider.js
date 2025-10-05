@@ -8,7 +8,7 @@ const Slider = () => {
     {
       src: process.env.PUBLIC_URL + '/assets/MDS_group_pic.jpeg',
       alt: 'Slide 1',
-      text: 'Class of M.Sc. (Data Science) 2023-25',
+      text: 'Class of M.Sc. (Data Science) 2024-26',
     },
     {
       src:  process.env.PUBLIC_URL + '/assets/Campus_Main_Entrance.jpg',

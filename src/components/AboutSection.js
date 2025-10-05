@@ -56,7 +56,7 @@ const AboutSection = () => {
       <div className="about-section">
         <div className="about-item">
           <div className="icon"><i className="fas fa-laptop-code"></i></div>
-          <h2>About MSc Data Science Programme of 2023-25</h2>
+          <h2>About MSc Data Science Programme of 2024-26</h2>
           <p>The Master of Data Science (MDS) is a postgraduate program that combines computer science and statistics to foster proficiency in data-driven decision-making. It is a two-year course comprising six trimesters.</p>
           <p>This programme aims to provide opportunity to all candidates to master the skill sets specific to data science with research bent. The curriculum supports the students to obtain adequate knowledge in theory of data science with hands-on experience in relevant domains and tools. Candidates gain exposure to research models and industry standard applications in data science through guest lectures, seminars, projects, internships, etc.</p>
         </div>
