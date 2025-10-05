@@ -295,10 +295,10 @@ const profiles = [
   },
   {
     name: 'Kiran',
-    specialization: '',
-    skills: '',
-    github: '',
-    linkedin: '',
+    specialization: 'Data Science, Machine Learning, Deep Learning',
+    skills: 'Python, SQL,LLm, Rag, GenAI',
+    github: 'https://github.com/Kiranrossi',
+    linkedin: 'https://www.linkedin.com/in/kiranguruvsm',
     photo: '/assets/kiran.jpg'
   },
   {
@@ -320,7 +320,7 @@ const profiles = [
   {
     name: 'Lis Mary Lijo',
     specialization: 'Data Science',
-    skills: 'SQl, Python, HTML,CSS',
+    skills: 'SQl, Python, HTML,CSS , Power BI , Ms Office',
     github: 'https://github.com/LisLijo135',
     linkedin: 'https://www.linkedin.com/in/lis-lijo-88222a257/',
     photo: '/assets/Lis.JPG'
@@ -470,11 +470,11 @@ const profiles = [
     photo: '/assets/Ribu.JPG'
   },
   {
-    name: 'Ronal',
-    specialization: '',
-    skills: '',
-    github: '',
-    linkedin: '',
+    name: 'Ronal Thomas',
+    specialization: 'Data Science, Machine Learning',
+    skills: 'R, SQL, Python, Problem Solving, Presentation, Deep Learning',
+    github: 'https://github.com/Ronal-Thomas',
+    linkedin: 'www.linkedin.com/in/ronal-thomas',
     photo: '/assets/Ronal.JPG'
   },
   {
@@ -584,7 +584,7 @@ const profiles = [
   {
     name: 'Sumesh Cs',
     specialization: 'Data Science, Machine Learning and Neural Networks',
-    skills: 'Python, java ,SQL',
+    skills: 'Python, java ,SQL, QGIS, OpenCV, EDA, MongoDB, Web development & Analytical skills',
     github: 'https://github.com/sumesh-12',
     linkedin: 'https://www.linkedin.com/in/sumesh-siva-0988b5219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     photo: '/assets/Sumesh.JPG'
