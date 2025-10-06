@@ -96,7 +96,7 @@ const profiles = [
   {
     name: 'Bhargav Reddy K',
     specialization: 'MSC DATA SCIENCE',
-    skills: 'Python, sql, tableau, R, SQL, ML(Model building), AI',
+    skills: 'Python, sql, tableau, R, SQL, ML(Model building), AI, Vibe Coding',
     github: 'https://github.com/Bull9016',
     linkedin: 'https://www.linkedin.com/in/bhargav-reddy-k-71829121b',
     photo: '/assets/Bhargav.JPG',
@@ -177,7 +177,7 @@ const profiles = [
   {
     name: 'George Jose',
     specialization: 'Machine learning, deep learning, NLP, Computer vision, IoT, Data analysis',
-    skills: 'Python, JavaScript, HTML, CSS, SQL, DBMS',
+    skills: 'Python, JavaScript, HTML, CSS, SQL, DBMS, Vibe Coding',
     github: 'https://github.com/georgejose055',
     linkedin: 'http://www.linkedin.com/in/george-jose-114077235',
     photo: '/assets/george.jpg'
@@ -185,7 +185,7 @@ const profiles = [
   {
     name: 'Gladis Sam Prakash S',
     specialization: 'Data Science',
-    skills: 'React JS, node JS, full stack dev',
+    skills: 'React JS, node JS, full stack dev, Vibe Coding',
     github: 'https://github.com/GALDII',
     linkedin: 'https://www.linkedin.com/in/gladis-sam-3125b122a/',
     photo: '/assets/Sam.png',
