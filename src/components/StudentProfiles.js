@@ -99,7 +99,8 @@ const profiles = [
     skills: 'Python, sql, tableau, R, SQL, ML(Model building), AI',
     github: 'https://github.com/Bull9016',
     linkedin: 'https://www.linkedin.com/in/bhargav-reddy-k-71829121b',
-    photo: '/assets/Bhargav.JPG'
+    photo: '/assets/Bhargav.JPG',
+    portfolio: 'https://bull9016.github.io/portfolio-main/'
   },
   {
     name: 'Bhavya Sree S',
@@ -136,7 +137,7 @@ const profiles = [
   {
     name: 'Chittesh K',
     specialization: 'Data Analytics , Machine Learning , Geo Spatial Analysis , IOT',
-    skills: 'Python, SQL, Data Analysis & Visualization tools ,R, Tableau, Power BI, and Problem-Solving',
+    skills: 'Python, SQL, Data Analysis & Visualization tools ,R, Tableau, Power BI, and Problem-Solving, QGIS-tool',
     github: 'https://github.com/Chittesh2324',
     linkedin: 'https://www.linkedin.com/in/chittesh-karthikeyan-6aba4023b/',
     photo: '/assets/chittesh.jpg'
@@ -151,8 +152,8 @@ const profiles = [
   },
   {
     name: 'Dakshatha Urs Ms',
-    specialization: 'Data Science, Data Analytics, Generative AI, Deep learning',
-    skills: 'Python, SQL, Power BI, Streamlit, Problem solving',
+    specialization: 'Data Science, Data Analytics, Generative AI',
+    skills: 'Python, SQL, Power BI, Streamlit, Problem solving, Langchain, Analytical Resoning',
     github: 'https://github.com/Dakshatha1609',
     linkedin: 'https://www.linkedin.com/in/dakshatha-urs-24a78a282/',
     photo: '/assets/Dakshatha.JPG'
@@ -187,7 +188,8 @@ const profiles = [
     skills: 'React JS, node JS, full stack dev',
     github: 'https://github.com/GALDII',
     linkedin: 'https://www.linkedin.com/in/gladis-sam-3125b122a/',
-    photo: '/assets/Sam.png'
+    photo: '/assets/Sam.png',
+    portfolio: 'https://galdii.github.io/portfolio'
   },
   {
     name: 'Gopika A M',
@@ -238,11 +240,11 @@ const profiles = [
     photo: '/assets/Hrudya.JPG'
   },
   {
-    name: 'Huda',
-    specialization: '',
-    skills: '',
-    github: '',
-    linkedin: '',
+    name: 'Huda Imtiyaz ',
+    specialization: 'Data Science , Machine learning , Deep Learning',
+    skills: 'Python, SQL, R, Java, Excel, Data visualization, problem solving ',
+    github: 'https://github.com/HudaImtiyaz',
+    linkedin: 'linkedin.com/in/huda-imtiyaz',
     photo: '/assets/Huda.JPG'
   },
   {
@@ -350,11 +352,11 @@ const profiles = [
     photo: '/assets/madhupa.jpg'
   },
   {
-    name: 'Manish',
-    specialization: '',
-    skills: '',
-    github: '',
-    linkedin: '',
+    name: 'Manish Karautia',
+    specialization: 'Data Science, AI, ANALYTICS ',
+    skills: 'Python, SQL, NO SQL, STATISTICS ',
+    github: 'https://github.com/manish-karautia',
+    linkedin: 'https://www.linkedin.com/in/manish-karautia-b86395211/',
     photo: '/assets/manish.jpg'
   },
   {
@@ -617,7 +619,7 @@ const profiles = [
     name: 'Swetha S',
     specialization: 'Data Science, Computer Science, Mathematics, Statistics, Machine Learning, Artificial Intelligence',
     skills: 'Python, R, SQL, and Machine Learning, Project Management, Presentations, Retail, Business Intelligence',
-    github: 'https://github.com/swetha-s-2',
+    github: 'https://github.com/swetha-s-27',
     linkedin: 'https://www.linkedin.com/in/swetha-s-0301a717a',
     photo: '/assets/Swetha.JPG'
   },
@@ -654,11 +656,11 @@ const profiles = [
     photo: '/assets/Toshima.JPG'
   },
   {
-    name: 'Umang',
-    specialization: '',
-    skills: '',
-    github: '',
-    linkedin: '',
+    name: 'Umang Adesara',
+    specialization: 'Data Analytics, Data Science, Software Development',
+    skills: 'Python, SQL, HTML, CSS, JS, TS, Analytical Thinking, Problem Solving',
+    github: 'https://github.com/umang710',
+    linkedin: 'https://www.linkedin.com/in/umangadesara710/',
     photo: '/assets/Umang.JPG'
   },
   {
